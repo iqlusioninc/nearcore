@@ -65,11 +65,11 @@ near_root, node_dirs = init_cluster(
 
 print("Populating genesis")
 
-if genesis_data is None:
-    genesis_populate_all(near_root, additional_accounts, node_dirs)
-else:
-    for node_dir in node_dirs:
-        copy_genesis(genesis_data, node_dir)
+# if genesis_data is None:
+#     genesis_populate_all(near_root, additional_accounts, node_dirs)
+# else:
+#     for node_dir in node_dirs:
+#         copy_genesis(genesis_data, node_dir)
 
 print("Genesis generated")
 
